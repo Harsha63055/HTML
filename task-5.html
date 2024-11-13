@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Forms</legend>
+
+      <form action="../file 1.html">
+        <label for="opts">Choose an option below:</label>
+        <br />
+        <select name="opts" id="opts">
+          <option value="">--select--</option>
+          <optgroup label="--select--">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </optgroup>
+        </select>
+
+        <br />
+        <br />
+
+        <label for="np">VEGITABELS</label>
+        <br />
+        <input list="vegetabels" name="veg" id="veg" />
+        <datalist id="vegetabels">
+          <option value="Tamato"></option>
+          <option value="brinjal"></option>
+          <option value="Oninon"></option>
+          <option value="Mirchi"></option>
+        </datalist>
+        <br />
+        <br />
+
+        <input
+          type="image"
+          src="./img1.jpeg"
+          width="50"
+          height="100"
+          formaction="./day6.html"
+        />
+        <br />
+        <br />
+
+        <input type="submit" />
+        <br />
+        <br />
+        <input
+          type="submit"
+          value="navigate to sample2"
+          formaction="../sample2.html"
+        />
+        <br />
+        <br />
+        <input type="reset" />
+      </form>
+    </fieldset>
+    <h1 style="text-align: center">SALAAR</h1>
+    <hr />
+    <picture>
+      <source media="(min-width : 620px)" srcset="./img2.jpg" />
+      <source media="(min-width : 420px)" srcset="./img4.jpg" />
+      <source media="(min-width : 320px)" srcset="./img3.jpg" />
+      <img src="./bee.jpg" alt="pic1" height="250" />
+    </picture><br><br>
+     <form action="./tasks.html">
+        <button>Goback</button>
+    </form>
+  </body>
+</html>
